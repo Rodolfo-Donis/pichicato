@@ -1,0 +1,121 @@
+.language-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.language-current {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.language-current:hover {
+  background: var(--bg-card);
+  border-color: var(--border-hover);
+}
+
+.language-icon {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.language-flag {
+  font-size: 1.1rem;
+}
+
+.language-code {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px var(--shadow-color);
+  min-width: 150px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.language-switcher:hover .language-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.language-option:first-child {
+  border-radius: 12px 12px 0 0;
+}
+
+.language-option:last-child {
+  border-radius: 0 0 12px 12px;
+}
+
+.language-option:hover {
+  background: var(--bg-tertiary);
+}
+
+.language-option.active {
+  background: var(--accent-primary);
+  color: white;
+}
+
+.language-option.active:hover {
+  background: var(--accent-primary);
+}
+
+.language-name {
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .language-current {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  
+  .language-code {
+    display: none;
+  }
+  
+  .language-dropdown {
+    min-width: 120px;
+  }
+  
+  .language-option {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+} 

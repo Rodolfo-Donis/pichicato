@@ -1,0 +1,329 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "continue": "Continuar",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "view": "Ver",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "quantity": "Cantidad",
+    "price": "Precio",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "tax": "Impuestos",
+    "discount": "Descuento",
+    "free": "Gratis",
+    "outOfStock": "Agotado",
+    "inStock": "En Stock",
+    "select": "Seleccionar",
+    "choose": "Elegir",
+    "all": "Todos",
+    "none": "Ninguno",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK",
+    "confirm": "Confirmar",
+    "language": "Idioma",
+    "theme": "Tema",
+    "dark": "Oscuro",
+    "light": "Claro"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "catalog": "Catálogo",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "help": "Ayuda",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "register": "Registrarse",
+    "profile": "Perfil",
+    "orders": "Pedidos",
+    "wishlist": "Lista de Deseos",
+    "settings": "Configuración"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenido a Pichicato",
+      "subtitle": "Descubre juguetes increíbles para cada edad",
+      "cta": "Comprar Ahora",
+      "description": "Desde juguetes educativos hasta juegos divertidos, tenemos todo lo que tu hijo necesita para aprender y crecer."
+    },
+    "ageCategories": {
+      "title": "Comprar por Edad",
+      "subtitle": "Encuentra los juguetes perfectos para la edad de tu hijo",
+      "newborn": "Recién Nacido (0-6 meses)",
+      "infant": "Bebé (6-12 meses)",
+      "toddler": "Niño Pequeño (1-3 años)",
+      "preschool": "Preescolar (3-5 años)",
+      "schoolAge": "Edad Escolar (6-12 años)",
+      "teen": "Adolescente (13-15 años)"
+    },
+    "featured": {
+      "title": "Productos Destacados",
+      "subtitle": "Nuestros juguetes más populares",
+      "viewAll": "Ver Todos los Productos"
+    },
+    "blog": {
+      "title": "Últimas Noticias",
+      "subtitle": "Mantente actualizado con las tendencias y consejos de juguetes",
+      "readMore": "Leer Más"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar a Comprar?",
+      "subtitle": "Únete a miles de clientes felices",
+      "button": "Explorar Catálogo"
+    }
+  },
+  "catalog": {
+    "title": "Catálogo de Productos",
+    "subtitle": "Explora nuestra increíble colección de juguetes",
+    "filters": {
+      "title": "Filtros",
+      "age": "Edad",
+      "category": "Categoría",
+      "price": "Precio",
+      "brand": "Marca",
+      "clearAll": "Limpiar Todo"
+    },
+    "sort": {
+      "title": "Ordenar por",
+      "newest": "Más Recientes",
+      "priceLow": "Precio: Menor a Mayor",
+      "priceHigh": "Precio: Mayor a Menor",
+      "name": "Nombre: A a Z",
+      "popular": "Más Populares"
+    },
+    "product": {
+      "addToCart": "Agregar al Carrito",
+      "buyNow": "Comprar Ahora",
+      "quickView": "Vista Rápida",
+      "favorite": "Agregar a Favoritos",
+      "unfavorite": "Quitar de Favoritos",
+      "outOfStock": "Agotado",
+      "inStock": "En Stock",
+      "ageRange": "Edades {{min}}-{{max}} años",
+      "category": "Categoría",
+      "brand": "Marca",
+      "description": "Descripción",
+      "features": "Características",
+      "reviews": "Reseñas",
+      "related": "Productos Relacionados"
+    },
+    "empty": {
+      "title": "No se encontraron productos",
+      "subtitle": "Intenta ajustar tus filtros o términos de búsqueda",
+      "clearFilters": "Limpiar Filtros"
+    }
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "subtitle": "Parece que aún no has agregado ningún juguete a tu carrito.",
+      "cta": "Comenzar a Comprar"
+    },
+    "item": {
+      "quantity": "Cant: {{quantity}}",
+      "remove": "Quitar artículo"
+    },
+    "summary": {
+      "title": "Resumen del Pedido",
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "tax": "Impuestos",
+      "total": "Total"
+    },
+    "actions": {
+      "continueShopping": "Continuar Comprando",
+      "proceedToCheckout": "Proceder al Pago"
+    }
+  },
+  "checkout": {
+    "title": "Pago",
+    "steps": {
+      "customerInfo": "Información del Cliente",
+      "shipping": "Envío",
+      "payment": "Pago",
+      "review": "Revisión"
+    },
+    "customerInfo": {
+      "title": "Información del Cliente",
+      "subtitle": "Por favor proporciona tu información de contacto",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "required": "Requerido"
+    },
+    "shipping": {
+      "title": "Información de Envío",
+      "subtitle": "¿Dónde deberíamos entregar tu pedido?",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "state": "Estado",
+      "zipCode": "Código Postal",
+      "country": "País",
+      "method": "Método de Envío",
+      "options": {
+        "standard": "Envío Estándar",
+        "express": "Envío Express",
+        "overnight": "Envío Nocturno"
+      },
+      "delivery": {
+        "standard": "3-5 días hábiles",
+        "express": "1-2 días hábiles",
+        "overnight": "Próximo día hábil"
+      }
+    },
+    "payment": {
+      "title": "Información de Pago",
+      "subtitle": "Completa tu compra de forma segura"
+    },
+    "review": {
+      "title": "Revisión del Pedido",
+      "subtitle": "Por favor revisa tu pedido antes de completarlo",
+      "customerInfo": "Información del Cliente",
+      "shippingInfo": "Información de Envío",
+      "shippingMethod": "Método de Envío"
+    },
+    "validation": {
+      "firstName": "El nombre es requerido",
+      "lastName": "El apellido es requerido",
+      "email": "El correo electrónico es requerido",
+      "emailInvalid": "Formato de correo electrónico inválido",
+      "phone": "El número de teléfono es requerido",
+      "address": "La dirección es requerida",
+      "city": "La ciudad es requerida",
+      "state": "El estado es requerido",
+      "zipCode": "El código postal es requerido"
+    },
+    "navigation": {
+      "back": "Atrás",
+      "continue": "Continuar",
+      "completePayment": "Completar Pago"
+    }
+  },
+  "orderConfirmation": {
+    "title": "¡Pedido Confirmado!",
+    "subtitle": "Gracias por tu compra. Tu pedido ha sido procesado exitosamente.",
+    "orderSummary": "Resumen del Pedido",
+    "orderId": "ID del Pedido",
+    "orderDate": "Fecha del Pedido",
+    "totalAmount": "Monto Total",
+    "paymentStatus": "Estado del Pago",
+    "paid": "Pagado",
+    "customerInfo": "Información del Cliente",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "shippingInfo": "Información de Envío",
+    "shippingAddress": "Dirección de Envío",
+    "shippingMethod": "Método de Envío",
+    "estimatedDelivery": "Entrega Estimada",
+    "orderItems": "Artículos del Pedido",
+    "orderTotals": "Totales del Pedido",
+    "nextSteps": "¿Qué Sigue?",
+    "step1": {
+      "title": "Correo de Confirmación",
+      "description": "Recibirás un correo de confirmación con los detalles de tu pedido."
+    },
+    "step2": {
+      "title": "Procesamiento del Pedido",
+      "description": "Procesaremos tu pedido y lo prepararemos para envío en 24 horas."
+    },
+    "step3": {
+      "title": "Notificación de Envío",
+      "description": "Recibirás una confirmación de envío con información de seguimiento."
+    },
+    "step4": {
+      "title": "Entrega",
+      "description": "Tu pedido será entregado en la dirección especificada."
+    },
+    "actions": {
+      "continueShopping": "Continuar Comprando",
+      "viewOrders": "Ver Mis Pedidos"
+    }
+  },
+  "payment": {
+    "title": "Pago",
+    "cardNumber": "Número de Tarjeta",
+    "expiryDate": "Fecha de Vencimiento",
+    "cvv": "CVV",
+    "cardholderName": "Nombre del Titular",
+    "pay": "Pagar {{amount}}",
+    "processing": "Procesando...",
+    "success": "¡Pago exitoso!",
+    "error": "Pago fallido. Por favor intenta de nuevo.",
+    "security": {
+      "secure": "Pago Seguro",
+      "ssl": "Encriptado SSL"
+    }
+  },
+  "account": {
+    "title": "Mi Cuenta",
+    "profile": "Perfil",
+    "orders": "Pedidos",
+    "wishlist": "Lista de Deseos",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "rememberMe": "Recordarme",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?"
+  },
+  "about": {
+    "title": "Acerca de Pichicato",
+    "subtitle": "Tu socio de confianza en el desarrollo infantil",
+    "mission": "Nuestra Misión",
+    "missionText": "Creemos que cada niño merece los mejores juguetes para el aprendizaje y desarrollo. Nuestra colección cuidadosamente seleccionada garantiza calidad, seguridad y valor educativo.",
+    "values": "Nuestros Valores",
+    "quality": "Calidad",
+    "qualityText": "Solo almacenamos juguetes que cumplen con los más altos estándares de seguridad y calidad.",
+    "education": "Educación",
+    "educationText": "Cada juguete en nuestra colección promueve el aprendizaje y desarrollo.",
+    "safety": "Seguridad",
+    "safetyText": "La seguridad infantil es nuestra máxima prioridad en todo lo que hacemos.",
+    "team": "Nuestro Equipo",
+    "teamText": "Conoce al equipo apasionado detrás de Pichicato."
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Acerca de Nosotros",
+    "contact": "Contacto",
+    "careers": "Carreras",
+    "support": "Soporte",
+    "help": "Centro de Ayuda",
+    "shipping": "Información de Envío",
+    "returns": "Devoluciones",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "newsletter": "Boletín",
+    "newsletterText": "Mantente actualizado con los últimos juguetes y ofertas",
+    "subscribe": "Suscribirse",
+    "emailPlaceholder": "Ingresa tu correo",
+    "copyright": "© 2024 Pichicato. Todos los derechos reservados."
+  }
+} 

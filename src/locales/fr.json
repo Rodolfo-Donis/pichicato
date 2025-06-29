@@ -1,0 +1,329 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "continue": "Continuer",
+    "submit": "Soumettre",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "quantity": "Quantité",
+    "price": "Prix",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "tax": "Taxe",
+    "discount": "Réduction",
+    "free": "Gratuit",
+    "outOfStock": "Rupture de Stock",
+    "inStock": "En Stock",
+    "select": "Sélectionner",
+    "choose": "Choisir",
+    "all": "Tous",
+    "none": "Aucun",
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "confirm": "Confirmer",
+    "language": "Langue",
+    "theme": "Thème",
+    "dark": "Sombre",
+    "light": "Clair"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "catalog": "Catalogue",
+    "cart": "Panier",
+    "account": "Compte",
+    "about": "À Propos",
+    "contact": "Contact",
+    "help": "Aide",
+    "login": "Se Connecter",
+    "logout": "Se Déconnecter",
+    "register": "S'inscrire",
+    "profile": "Profil",
+    "orders": "Commandes",
+    "wishlist": "Liste de Souhaits",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue chez Pichicato",
+      "subtitle": "Découvrez des jouets incroyables pour tous les âges",
+      "cta": "Acheter Maintenant",
+      "description": "Des jouets éducatifs aux jeux amusants, nous avons tout ce dont votre enfant a besoin pour apprendre et grandir."
+    },
+    "ageCategories": {
+      "title": "Acheter par Âge",
+      "subtitle": "Trouvez les jouets parfaits pour l'âge de votre enfant",
+      "newborn": "Nouveau-né (0-6 mois)",
+      "infant": "Bébé (6-12 mois)",
+      "toddler": "Tout-petit (1-3 ans)",
+      "preschool": "Préscolaire (3-5 ans)",
+      "schoolAge": "Âge Scolaire (6-12 ans)",
+      "teen": "Adolescent (13-15 ans)"
+    },
+    "featured": {
+      "title": "Produits Vedettes",
+      "subtitle": "Nos jouets les plus populaires",
+      "viewAll": "Voir Tous les Produits"
+    },
+    "blog": {
+      "title": "Dernières Nouvelles",
+      "subtitle": "Restez à jour avec les tendances et conseils de jouets",
+      "readMore": "Lire Plus"
+    },
+    "cta": {
+      "title": "Prêt à Commencer les Achats ?",
+      "subtitle": "Rejoignez des milliers de clients satisfaits",
+      "button": "Explorer le Catalogue"
+    }
+  },
+  "catalog": {
+    "title": "Catalogue de Produits",
+    "subtitle": "Explorez notre incroyable collection de jouets",
+    "filters": {
+      "title": "Filtres",
+      "age": "Âge",
+      "category": "Catégorie",
+      "price": "Prix",
+      "brand": "Marque",
+      "clearAll": "Effacer Tout"
+    },
+    "sort": {
+      "title": "Trier par",
+      "newest": "Plus Récents",
+      "priceLow": "Prix: Croissant",
+      "priceHigh": "Prix: Décroissant",
+      "name": "Nom: A à Z",
+      "popular": "Plus Populaires"
+    },
+    "product": {
+      "addToCart": "Ajouter au Panier",
+      "buyNow": "Acheter Maintenant",
+      "quickView": "Aperçu Rapide",
+      "favorite": "Ajouter aux Favoris",
+      "unfavorite": "Retirer des Favoris",
+      "outOfStock": "Rupture de Stock",
+      "inStock": "En Stock",
+      "ageRange": "Âges {{min}}-{{max}} ans",
+      "category": "Catégorie",
+      "brand": "Marque",
+      "description": "Description",
+      "features": "Caractéristiques",
+      "reviews": "Avis",
+      "related": "Produits Similaires"
+    },
+    "empty": {
+      "title": "Aucun produit trouvé",
+      "subtitle": "Essayez d'ajuster vos filtres ou termes de recherche",
+      "clearFilters": "Effacer les Filtres"
+    }
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": {
+      "title": "Votre panier est vide",
+      "subtitle": "Il semble que vous n'ayez pas encore ajouté de jouets à votre panier.",
+      "cta": "Commencer les Achats"
+    },
+    "item": {
+      "quantity": "Qté: {{quantity}}",
+      "remove": "Retirer l'article"
+    },
+    "summary": {
+      "title": "Résumé de la Commande",
+      "subtotal": "Sous-total",
+      "shipping": "Livraison",
+      "tax": "Taxe",
+      "total": "Total"
+    },
+    "actions": {
+      "continueShopping": "Continuer les Achats",
+      "proceedToCheckout": "Procéder au Paiement"
+    }
+  },
+  "checkout": {
+    "title": "Paiement",
+    "steps": {
+      "customerInfo": "Informations Client",
+      "shipping": "Livraison",
+      "payment": "Paiement",
+      "review": "Révision"
+    },
+    "customerInfo": {
+      "title": "Informations Client",
+      "subtitle": "Veuillez fournir vos informations de contact",
+      "firstName": "Prénom",
+      "lastName": "Nom de Famille",
+      "email": "Adresse E-mail",
+      "phone": "Numéro de Téléphone",
+      "required": "Requis"
+    },
+    "shipping": {
+      "title": "Informations de Livraison",
+      "subtitle": "Où devons-nous livrer votre commande ?",
+      "address": "Adresse",
+      "city": "Ville",
+      "state": "État/Province",
+      "zipCode": "Code Postal",
+      "country": "Pays",
+      "method": "Méthode de Livraison",
+      "options": {
+        "standard": "Livraison Standard",
+        "express": "Livraison Express",
+        "overnight": "Livraison Nocturne"
+      },
+      "delivery": {
+        "standard": "3-5 jours ouvrables",
+        "express": "1-2 jours ouvrables",
+        "overnight": "Prochain jour ouvrable"
+      }
+    },
+    "payment": {
+      "title": "Informations de Paiement",
+      "subtitle": "Complétez votre achat en toute sécurité"
+    },
+    "review": {
+      "title": "Révision de la Commande",
+      "subtitle": "Veuillez réviser votre commande avant de la finaliser",
+      "customerInfo": "Informations Client",
+      "shippingInfo": "Informations de Livraison",
+      "shippingMethod": "Méthode de Livraison"
+    },
+    "validation": {
+      "firstName": "Le prénom est requis",
+      "lastName": "Le nom de famille est requis",
+      "email": "L'adresse e-mail est requise",
+      "emailInvalid": "Format d'adresse e-mail invalide",
+      "phone": "Le numéro de téléphone est requis",
+      "address": "L'adresse est requise",
+      "city": "La ville est requise",
+      "state": "L'état/province est requis",
+      "zipCode": "Le code postal est requis"
+    },
+    "navigation": {
+      "back": "Retour",
+      "continue": "Continuer",
+      "completePayment": "Finaliser le Paiement"
+    }
+  },
+  "orderConfirmation": {
+    "title": "Commande Confirmée !",
+    "subtitle": "Merci pour votre achat. Votre commande a été traitée avec succès.",
+    "orderSummary": "Résumé de la Commande",
+    "orderId": "ID de Commande",
+    "orderDate": "Date de Commande",
+    "totalAmount": "Montant Total",
+    "paymentStatus": "Statut du Paiement",
+    "paid": "Payé",
+    "customerInfo": "Informations Client",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "shippingInfo": "Informations de Livraison",
+    "shippingAddress": "Adresse de Livraison",
+    "shippingMethod": "Méthode de Livraison",
+    "estimatedDelivery": "Livraison Estimée",
+    "orderItems": "Articles de la Commande",
+    "orderTotals": "Totaux de la Commande",
+    "nextSteps": "Prochaines Étapes",
+    "step1": {
+      "title": "E-mail de Confirmation",
+      "description": "Vous recevrez un e-mail de confirmation avec les détails de votre commande."
+    },
+    "step2": {
+      "title": "Traitement de la Commande",
+      "description": "Nous traiterons votre commande et la préparerons pour l'expédition sous 24 heures."
+    },
+    "step3": {
+      "title": "Notification d'Expédition",
+      "description": "Vous recevrez une confirmation d'expédition avec les informations de suivi."
+    },
+    "step4": {
+      "title": "Livraison",
+      "description": "Votre commande sera livrée à l'adresse spécifiée."
+    },
+    "actions": {
+      "continueShopping": "Continuer les Achats",
+      "viewOrders": "Voir Mes Commandes"
+    }
+  },
+  "payment": {
+    "title": "Paiement",
+    "cardNumber": "Numéro de Carte",
+    "expiryDate": "Date d'Expiration",
+    "cvv": "CVV",
+    "cardholderName": "Nom du Titulaire",
+    "pay": "Payer {{amount}}",
+    "processing": "Traitement...",
+    "success": "Paiement réussi !",
+    "error": "Paiement échoué. Veuillez réessayer.",
+    "security": {
+      "secure": "Paiement Sécurisé",
+      "ssl": "Chiffré SSL"
+    }
+  },
+  "account": {
+    "title": "Mon Compte",
+    "profile": "Profil",
+    "orders": "Commandes",
+    "wishlist": "Liste de Souhaits",
+    "settings": "Paramètres",
+    "logout": "Se Déconnecter",
+    "login": "Se Connecter",
+    "register": "S'inscrire",
+    "email": "E-mail",
+    "password": "Mot de Passe",
+    "confirmPassword": "Confirmer le Mot de Passe",
+    "forgotPassword": "Mot de Passe Oublié ?",
+    "rememberMe": "Se Souvenir de Moi",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?"
+  },
+  "about": {
+    "title": "À Propos de Pichicato",
+    "subtitle": "Votre partenaire de confiance dans le développement de l'enfance",
+    "mission": "Notre Mission",
+    "missionText": "Nous croyons que chaque enfant mérite les meilleurs jouets pour l'apprentissage et le développement. Notre collection soigneusement sélectionnée garantit qualité, sécurité et valeur éducative.",
+    "values": "Nos Valeurs",
+    "quality": "Qualité",
+    "qualityText": "Nous ne stockons que des jouets qui répondent aux plus hauts standards de sécurité et de qualité.",
+    "education": "Éducation",
+    "educationText": "Chaque jouet de notre collection favorise l'apprentissage et le développement.",
+    "safety": "Sécurité",
+    "safetyText": "La sécurité des enfants est notre priorité absolue dans tout ce que nous faisons.",
+    "team": "Notre Équipe",
+    "teamText": "Rencontrez l'équipe passionnée derrière Pichicato."
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos de Nous",
+    "contact": "Contact",
+    "careers": "Carrières",
+    "support": "Support",
+    "help": "Centre d'Aide",
+    "shipping": "Informations de Livraison",
+    "returns": "Retours",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "cookies": "Politique des Cookies",
+    "newsletter": "Newsletter",
+    "newsletterText": "Restez à jour avec les derniers jouets et offres",
+    "subscribe": "S'abonner",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "copyright": "© 2024 Pichicato. Tous droits réservés."
+  }
+} 

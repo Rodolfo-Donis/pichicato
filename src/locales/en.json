@@ -1,0 +1,329 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove",
+    "quantity": "Quantity",
+    "price": "Price",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "discount": "Discount",
+    "free": "Free",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "select": "Select",
+    "choose": "Choose",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "confirm": "Confirm",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "navigation": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "cart": "Cart",
+    "account": "Account",
+    "about": "About",
+    "contact": "Contact",
+    "help": "Help",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "profile": "Profile",
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "settings": "Settings"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Pichicato",
+      "subtitle": "Discover amazing toys for every age",
+      "cta": "Shop Now",
+      "description": "From educational toys to fun games, we have everything your child needs to learn and grow."
+    },
+    "ageCategories": {
+      "title": "Shop by Age",
+      "subtitle": "Find the perfect toys for your child's age",
+      "newborn": "Newborn (0-6 months)",
+      "infant": "Infant (6-12 months)",
+      "toddler": "Toddler (1-3 years)",
+      "preschool": "Preschool (3-5 years)",
+      "schoolAge": "School Age (6-12 years)",
+      "teen": "Teen (13-15 years)"
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "Our most popular toys",
+      "viewAll": "View All Products"
+    },
+    "blog": {
+      "title": "Latest News",
+      "subtitle": "Stay updated with toy trends and tips",
+      "readMore": "Read More"
+    },
+    "cta": {
+      "title": "Ready to Start Shopping?",
+      "subtitle": "Join thousands of happy customers",
+      "button": "Explore Catalog"
+    }
+  },
+  "catalog": {
+    "title": "Product Catalog",
+    "subtitle": "Browse our amazing collection of toys",
+    "filters": {
+      "title": "Filters",
+      "age": "Age",
+      "category": "Category",
+      "price": "Price",
+      "brand": "Brand",
+      "clearAll": "Clear All"
+    },
+    "sort": {
+      "title": "Sort by",
+      "newest": "Newest",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "name": "Name: A to Z",
+      "popular": "Most Popular"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "buyNow": "Buy Now",
+      "quickView": "Quick View",
+      "favorite": "Add to Favorites",
+      "unfavorite": "Remove from Favorites",
+      "outOfStock": "Out of Stock",
+      "inStock": "In Stock",
+      "ageRange": "Ages {{min}}-{{max}} years",
+      "category": "Category",
+      "brand": "Brand",
+      "description": "Description",
+      "features": "Features",
+      "reviews": "Reviews",
+      "related": "Related Products"
+    },
+    "empty": {
+      "title": "No products found",
+      "subtitle": "Try adjusting your filters or search terms",
+      "clearFilters": "Clear Filters"
+    }
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": {
+      "title": "Your cart is empty",
+      "subtitle": "Looks like you haven't added any toys to your cart yet.",
+      "cta": "Start Shopping"
+    },
+    "item": {
+      "quantity": "Qty: {{quantity}}",
+      "remove": "Remove item"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "total": "Total"
+    },
+    "actions": {
+      "continueShopping": "Continue Shopping",
+      "proceedToCheckout": "Proceed to Checkout"
+    }
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "customerInfo": "Customer Info",
+      "shipping": "Shipping",
+      "payment": "Payment",
+      "review": "Review"
+    },
+    "customerInfo": {
+      "title": "Customer Information",
+      "subtitle": "Please provide your contact information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "required": "Required"
+    },
+    "shipping": {
+      "title": "Shipping Information",
+      "subtitle": "Where should we deliver your order?",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zipCode": "ZIP Code",
+      "country": "Country",
+      "method": "Shipping Method",
+      "options": {
+        "standard": "Standard Shipping",
+        "express": "Express Shipping",
+        "overnight": "Overnight Shipping"
+      },
+      "delivery": {
+        "standard": "3-5 business days",
+        "express": "1-2 business days",
+        "overnight": "Next business day"
+      }
+    },
+    "payment": {
+      "title": "Payment Information",
+      "subtitle": "Complete your purchase securely"
+    },
+    "review": {
+      "title": "Order Review",
+      "subtitle": "Please review your order before completing",
+      "customerInfo": "Customer Information",
+      "shippingInfo": "Shipping Information",
+      "shippingMethod": "Shipping Method"
+    },
+    "validation": {
+      "firstName": "First name is required",
+      "lastName": "Last name is required",
+      "email": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "phone": "Phone number is required",
+      "address": "Address is required",
+      "city": "City is required",
+      "state": "State is required",
+      "zipCode": "ZIP code is required"
+    },
+    "navigation": {
+      "back": "Back",
+      "continue": "Continue",
+      "completePayment": "Complete Payment"
+    }
+  },
+  "orderConfirmation": {
+    "title": "Order Confirmed!",
+    "subtitle": "Thank you for your purchase. Your order has been successfully placed.",
+    "orderSummary": "Order Summary",
+    "orderId": "Order ID",
+    "orderDate": "Order Date",
+    "totalAmount": "Total Amount",
+    "paymentStatus": "Payment Status",
+    "paid": "Paid",
+    "customerInfo": "Customer Information",
+    "email": "Email",
+    "phone": "Phone",
+    "shippingInfo": "Shipping Information",
+    "shippingAddress": "Shipping Address",
+    "shippingMethod": "Shipping Method",
+    "estimatedDelivery": "Estimated Delivery",
+    "orderItems": "Order Items",
+    "orderTotals": "Order Totals",
+    "nextSteps": "What's Next?",
+    "step1": {
+      "title": "Order Confirmation Email",
+      "description": "You'll receive a confirmation email with your order details shortly."
+    },
+    "step2": {
+      "title": "Order Processing",
+      "description": "We'll process your order and prepare it for shipping within 24 hours."
+    },
+    "step3": {
+      "title": "Shipping Notification",
+      "description": "You'll receive a shipping confirmation with tracking information."
+    },
+    "step4": {
+      "title": "Delivery",
+      "description": "Your order will be delivered to your specified address."
+    },
+    "actions": {
+      "continueShopping": "Continue Shopping",
+      "viewOrders": "View My Orders"
+    }
+  },
+  "payment": {
+    "title": "Payment",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "cardholderName": "Cardholder Name",
+    "pay": "Pay {{amount}}",
+    "processing": "Processing...",
+    "success": "Payment successful!",
+    "error": "Payment failed. Please try again.",
+    "security": {
+      "secure": "Secure Checkout",
+      "ssl": "SSL Encrypted"
+    }
+  },
+  "account": {
+    "title": "My Account",
+    "profile": "Profile",
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "about": {
+    "title": "About Pichicato",
+    "subtitle": "Your trusted partner in childhood development",
+    "mission": "Our Mission",
+    "missionText": "We believe every child deserves the best toys for learning and development. Our carefully curated collection ensures quality, safety, and educational value.",
+    "values": "Our Values",
+    "quality": "Quality",
+    "qualityText": "We only stock toys that meet the highest safety and quality standards.",
+    "education": "Education",
+    "educationText": "Every toy in our collection promotes learning and development.",
+    "safety": "Safety",
+    "safetyText": "Child safety is our top priority in everything we do.",
+    "team": "Our Team",
+    "teamText": "Meet the passionate team behind Pichicato."
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "careers": "Careers",
+    "support": "Support",
+    "help": "Help Center",
+    "shipping": "Shipping Info",
+    "returns": "Returns",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "newsletter": "Newsletter",
+    "newsletterText": "Stay updated with the latest toys and offers",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email",
+    "copyright": "© 2024 Pichicato. All rights reserved."
+  }
+} 
