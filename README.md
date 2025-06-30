@@ -6,6 +6,10 @@ A modern, responsive React web application for a toy store with dark/light theme
 ![Theme Support](https://img.shields.io/badge/Theme-Dark%20%7C%20Light-purple?style=for-the-badge)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
 
+## 🚀 Live Demo
+
+Visit the live application: [https://rodolfodonis.github.io/pichicato](https://rodolfodonis.github.io/pichicato)
+
 ## ✨ Features
 
 ### 🌍 **Internationalization (i18n)**
