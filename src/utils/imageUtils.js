@@ -54,15 +54,6 @@ const DEV_IMAGES = {
   ]
 };
 
-// Production image paths (to be used when images are stored locally)
-const PROD_IMAGES = {
-  // Example structure for production images
-  // building: ['/images/toys/building-1.jpg', '/images/toys/building-2.jpg'],
-  // educational: ['/images/toys/educational-1.jpg', '/images/toys/educational-2.jpg'],
-  // creative: ['/images/toys/creative-1.jpg', '/images/toys/creative-2.jpg'],
-  // blog: ['/images/blog/blog-1.jpg', '/images/blog/blog-2.jpg']
-};
-
 /**
  * Get image URL based on image name and environment
  * @param {string} imageName - The name of the image (e.g., 'building-blocks', 'teddy-bear')
