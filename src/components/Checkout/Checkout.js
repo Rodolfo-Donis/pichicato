@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiArrowLeft, FiArrowRight, FiMapPin, FiTruck, FiCreditCard, FiCheck, FiUser, FiMail, FiPhone, FiHome } from 'react-icons/fi';
+import { FiArrowLeft, FiArrowRight, FiMapPin, FiTruck, FiCreditCard, FiCheck, FiUser } from 'react-icons/fi';
 import SpreedlyPayment from '../SpreedlyPayment/SpreedlyPayment';
 import './Checkout.css';
 
@@ -28,7 +28,6 @@ const Checkout = ({ cartItems, onClose, onOrderComplete }) => {
   });
   
   const [errors, setErrors] = useState({});
-  const [isProcessing, setIsProcessing] = useState(false);
 
   const steps = [
     { id: 1, title: 'Customer Info', icon: FiUser },
@@ -119,7 +118,6 @@ const Checkout = ({ cartItems, onClose, onOrderComplete }) => {
   };
 
   const handlePaymentSuccess = (paymentData) => {
-    setIsProcessing(false);
     // Here you would typically send the order to your backend
     const order = {
       id: `ORD-${Date.now()}`,
@@ -152,7 +150,6 @@ const Checkout = ({ cartItems, onClose, onOrderComplete }) => {
   };
 
   const handlePaymentError = (error) => {
-    setIsProcessing(false);
     console.error('Payment failed:', error);
   };
 

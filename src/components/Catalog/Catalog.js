@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiShoppingCart, FiHeart, FiEye, FiX, FiStar } from 'react-icons/fi';
+import { FiShoppingCart, FiHeart, FiEye, FiX } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { getImageUrl } from '../../utils/imageUtils';
 import SpreedlyPayment from '../SpreedlyPayment/SpreedlyPayment';
