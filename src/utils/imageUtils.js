@@ -69,26 +69,21 @@ const PROD_IMAGES = {
  * @returns {string} - Image URL or path
  */
 export const getImageUrl = (imageName) => {
-  if (process.env.NODE_ENV === 'development') {
-    // In development, map image names to categories and use existing images
-    const categoryMap = {
-      'building-blocks': 'building',
-      'teddy-bear': 'plush',
-      'science-kit': 'educational',
-      'art-supplies': 'creative',
-      'musical-instruments': 'musical',
-      'puzzle': 'educational',
-      'dress-up': 'creative',
-      'sports-set': 'active'
-    };
-    
-    const category = categoryMap[imageName] || 'building';
-    const images = DEV_IMAGES[category] || DEV_IMAGES.building;
-    return images[Math.floor(Math.random() * images.length)];
-  } else {
-    // In production, use local image paths
-    return `/images/${imageName}.jpg`;
-  }
+  // Always use development images for now to ensure images show properly
+  const categoryMap = {
+    'building-blocks': 'building',
+    'teddy-bear': 'plush',
+    'science-kit': 'educational',
+    'art-supplies': 'creative',
+    'musical-instruments': 'musical',
+    'puzzle': 'educational',
+    'dress-up': 'creative',
+    'sports-set': 'active'
+  };
+  
+  const category = categoryMap[imageName] || 'building';
+  const images = DEV_IMAGES[category] || DEV_IMAGES.building;
+  return images[Math.floor(Math.random() * images.length)];
 };
 
 /**
@@ -97,14 +92,9 @@ export const getImageUrl = (imageName) => {
  * @param {boolean} isDev - Whether we're in development mode
  * @returns {string} - Image URL or path
  */
-export const getRandomImage = (category, isDev = process.env.NODE_ENV === 'development') => {
-  if (isDev) {
-    const images = DEV_IMAGES[category] || DEV_IMAGES.building;
-    return images[Math.floor(Math.random() * images.length)];
-  } else {
-    const images = PROD_IMAGES[category] || PROD_IMAGES.building;
-    return images ? images[Math.floor(Math.random() * images.length)] : '/images/toys/default.jpg';
-  }
+export const getRandomImage = (category, isDev = true) => {
+  const images = DEV_IMAGES[category] || DEV_IMAGES.building;
+  return images[Math.floor(Math.random() * images.length)];
 };
 
 /**
@@ -114,14 +104,9 @@ export const getRandomImage = (category, isDev = process.env.NODE_ENV === 'devel
  * @param {boolean} isDev - Whether we're in development mode
  * @returns {string} - Image URL or path
  */
-export const getImageByIndex = (category, index, isDev = process.env.NODE_ENV === 'development') => {
-  if (isDev) {
-    const images = DEV_IMAGES[category] || DEV_IMAGES.building;
-    return images[index % images.length];
-  } else {
-    const images = PROD_IMAGES[category] || PROD_IMAGES.building;
-    return images ? images[index % images.length] : '/images/toys/default.jpg';
-  }
+export const getImageByIndex = (category, index, isDev = true) => {
+  const images = DEV_IMAGES[category] || DEV_IMAGES.building;
+  return images[index % images.length];
 };
 
 /**
@@ -130,12 +115,8 @@ export const getImageByIndex = (category, index, isDev = process.env.NODE_ENV ==
  * @param {boolean} isDev - Whether we're in development mode
  * @returns {Array} - Array of image URLs or paths
  */
-export const getAllImages = (category, isDev = process.env.NODE_ENV === 'development') => {
-  if (isDev) {
-    return DEV_IMAGES[category] || DEV_IMAGES.building;
-  } else {
-    return PROD_IMAGES[category] || PROD_IMAGES.building || ['/images/toys/default.jpg'];
-  }
+export const getAllImages = (category, isDev = true) => {
+  return DEV_IMAGES[category] || DEV_IMAGES.building;
 };
 
 /**
